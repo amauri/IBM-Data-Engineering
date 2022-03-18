@@ -1,0 +1,8 @@
+--- Instando o jupyter ---
+$ pip3 install jupyter
+
+--- Instalando o jupyter autocomplete ---
+$ pip3 install jupyter-tabnine --user
+$ jupyter nbextension install --py jupyter_tabnine --user
+$ jupyter nbextension enable --py jupyter_tabnine --user
+$ jupyter serverextension enable --py jupyter_tabnine --user
